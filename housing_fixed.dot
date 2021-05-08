@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="carat <= 4.952\nmse = 13275005973.329\nsamples = 16346\nvalue = 207026.193"] ;
+1 [label="ocean_proximity_INLAND <= 0.5\nmse = 8325800586.667\nsamples = 12690\nvalue = 172719.974"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="carat <= 3.126\nmse = 8195628907.162\nsamples = 8099\nvalue = 207073.079"] ;
+1 -> 2 ;
+3 [label="mse = 6145534617.574\nsamples = 3644\nvalue = 171482.748"] ;
+2 -> 3 ;
+4 [label="mse = 7988963151.872\nsamples = 4455\nvalue = 236184.452"] ;
+2 -> 4 ;
+5 [label="carat <= 3.034\nmse = 2800899329.128\nsamples = 4591\nvalue = 112117.535"] ;
+1 -> 5 ;
+6 [label="mse = 1692280832.514\nsamples = 2677\nvalue = 91918.752"] ;
+5 -> 6 ;
+7 [label="mse = 2982715421.198\nsamples = 1914\nvalue = 140368.392"] ;
+5 -> 7 ;
+8 [label="carat <= 6.82\nmse = 12189286152.527\nsamples = 3656\nvalue = 326103.306"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="ocean_proximity_INLAND <= 0.5\nmse = 8723104419.663\nsamples = 2593\nvalue = 287205.567"] ;
+8 -> 9 ;
+10 [label="mse = 7827219927.281\nsamples = 2138\nvalue = 303111.1"] ;
+9 -> 10 ;
+11 [label="mse = 6158173518.012\nsamples = 455\nvalue = 212467.04"] ;
+9 -> 11 ;
+12 [label="carat <= 7.815\nmse = 7950644074.145\nsamples = 1063\nvalue = 420987.442"] ;
+8 -> 12 ;
+13 [label="mse = 7910081334.117\nsamples = 453\nvalue = 371522.47"] ;
+12 -> 13 ;
+14 [label="mse = 4814355566.746\nsamples = 610\nvalue = 457721.266"] ;
+12 -> 14 ;
+}
